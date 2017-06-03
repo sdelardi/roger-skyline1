@@ -1,0 +1,2 @@
+Lorsque l'on utilise un serveur DNS externe (comme celui de google) pour interroger le domaine 42.fr, les ip retournees sont les ip publiques.
+Lorsque l'on utilise le serveur DNS par default et que l'on est sur un poste de l'ecole, on recoit aussi les ip publiques mais egalement les ip privees du reseau local de l'ecole.

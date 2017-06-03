@@ -1,0 +1,1 @@
+ifconfig | expand | cut -c1-8 | sort | uniq -u | awk -F: '{print $1;}'
