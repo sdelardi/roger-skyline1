@@ -7,7 +7,7 @@ else
 	diff /etc/crontemp /etc/crontab > difftmp
 	if [ $? -ne 0 ]
 	then
-		mail -s "Crontab changed !" user < difftmp
+		mail -s "Crontab changed !" user@`hostname` < difftmp
 		rm difftmp
 		rm -f /etc/crontemp
 		cp /etc/crontab /etc/crontemp
